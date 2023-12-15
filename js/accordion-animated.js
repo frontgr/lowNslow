@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         content.setAttribute("aria-hidden", "false");
         desc.style.opacity = 1;
         content.style.transition = "all 1s ease";
+        content.style.border = "1px solid #e2e2e2";
         content.style.maxHeight = content.scrollHeight + "px";
       } else {
         control.setAttribute("aria-expanded", "false");
