@@ -355,6 +355,7 @@ p {
 
 .contact__wrapp {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 45px;
 }
@@ -408,5 +409,22 @@ p {
 
   .hero__img {
     display: none;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .services__inner {
+    flex-wrap: wrap;
+  }
+
+  .services__img {
+    display: none;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    gap: 15px;
   }
 }
