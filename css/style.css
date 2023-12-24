@@ -6,6 +6,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -184,6 +185,7 @@ p {
       rgba(0, 0, 0, 0) 98.75%
     ),
     url("../img/hero/bg-hero.jpeg");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
