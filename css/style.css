@@ -391,6 +391,29 @@ p {
 }
 
 /* MEDIA */
+@media (max-width: 1340px) {
+  .hero__img {
+    right: 0%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .contact__title {
+    text-align: center;
+  }
+  .contact__wrapp {
+    justify-content: center;
+  }
+  .footer__container {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1050px) {
+  .hero__img {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .header__container {
     flex-direction: column;
@@ -407,10 +430,6 @@ p {
 
   .hero__title {
     font-size: 40px;
-  }
-
-  .hero__img {
-    display: none;
   }
 
   .btn {
