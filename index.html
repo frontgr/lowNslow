@@ -1,181 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LowNslow</title>
+    <link rel="stylesheet" href="/fonts/stylesheet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/fonts/stylesheet.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
+  <body>
     <header id="header" class="header">
-        <div class="container header__container">
-            <a><img class="header__logo" src="/img/logo-white.svg" width="140" height="34" loading="lazy"
-                    alt="logo"></a>
+      <div class="container header__container">
+        <a
+          ><img
+            class="header__logo"
+            src="/img/logo-white.svg"
+            width="140"
+            height="34"
+            loading="lazy"
+            alt="logo"
+        /></a>
 
-            <nav class="nav">
-                <ul class="list-reset nav__list">
-                    <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Прайс-лист</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
-                </ul>
-            </nav>
+        <nav class="nav">
+          <ul class="list-reset nav__list">
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Услуги</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Прайс-лист</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
 
-            <a class="header__phone phone" href="tel:+44987654321">
-                <svg class="icon">
-                    <use xlink:href="./img/icon/sprite.svg#tel"></use>
-                </svg>
-                +44 987 65 4321
-            </a>
-        </div>
+        <a class="header__phone phone" href="tel:+44987654321">
+          <svg class="icon">
+            <use xlink:href="./img/icon/sprite.svg#tel"></use>
+          </svg>
+          +44 987 65 4321
+        </a>
+      </div>
     </header>
     <main>
-        <section id="hero" class="hero">
-            <div class="container">
-                <div class="hero__content">
-                    <div class="hero__text">
-                        <h1 class="hero__title">Ремонт и тюнинг японских автомобилей</h1>
-                        <p class="hero__desc">Работаем круглосуточно. Все виды работ. Бесплатная диагностика</p>
-                        <a href="#" class="btn">Выбрать услугу</a>
-                    </div>
-                    <div class="hero__img"></div>
-                </div>
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__text">
+              <h1 class="hero__title">Ремонт и тюнинг японских автомобилей</h1>
+              <p class="hero__desc">
+                Работаем круглосуточно. Все виды работ. Бесплатная диагностика
+              </p>
+              <a href="#" class="btn">Выбрать услугу</a>
             </div>
-        </section>
-        <section id="services" class="services">
-            <div class="container">
-                <h2 class="services__title">Наши услуги</h2>
+            <div class="hero__img"></div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h2 class="services__title">Наши услуги</h2>
 
-                <div class="services__inner">
-                    <div class="services__card">
-                        <img class="services__img" width="360" height="460" src="/img/services/img_cars.png"
-                            loading="lazy" alt="the lift">
-
-                    </div>
-
-                    <div class="accordion">
-                        <ul class="list-reset accordion__list">
-                            <li class="list-reset accordion__item">
-                                <button class="accordion__control" aria-expanded="false">
-                                    <span class="accordion__name">Кузовные работы </span>
-                                    <span class="accordion__icon">
-                                        <svg class="icon">
-                                            <use xlink:href="./img/icon/sprite.svg#plus"></use>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="accordion__content" aria-expanded="true">
-                                    <p class="accordion__desc">Описание услуги - это форма маркетинговой копии, которая
-                                        описывает предложения компании для клиентов. Например, интернет-магазин
-                                        предоставляет на своем сайте описание товаров, которые он продает</p>
-                                </div>
-                            </li>
-                            <li class="list-reset accordion__item">
-                                <button class="accordion__control" aria-expanded="false">
-                                    <span class="accordion__name">Кузовные работы </span>
-                                    <span class="accordion__icon">
-                                        <svg class="icon">
-                                            <use xlink:href="./img/icon/sprite.svg#plus"></use>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="accordion__content" aria-expanded="true">
-                                    <p class="accordion__desc">Описание услуги - это форма маркетинговой копии, которая
-                                        описывает предложения компании для клиентов. Например, интернет-магазин
-                                        предоставляет на своем сайте описание товаров, которые он продает</p>
-                                </div>
-                            </li>
-                            <li class="list-reset accordion__item">
-                                <button class="accordion__control" aria-expanded="false">
-                                    <span class="accordion__name">Кузовные работы </span>
-                                    <span class="accordion__icon">
-                                        <svg class="icon">
-                                            <use xlink:href="./img/icon/sprite.svg#plus"></use>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="accordion__content" aria-expanded="true">
-                                    <p class="accordion__desc">Описание услуги - это форма маркетинговой копии, которая
-                                        описывает предложения компании для клиентов. Например, интернет-магазин
-                                        предоставляет на своем сайте описание товаров, которые он продает</p>
-                                </div>
-                            </li>
-                            <li class="list-reset accordion__item">
-                                <button class="accordion__control" aria-expanded="false">
-                                    <span class="accordion__name">Кузовные работы </span>
-                                    <span class="accordion__icon">
-                                        <svg class="icon">
-                                            <use xlink:href="./img/icon/sprite.svg#plus"></use>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="accordion__content" aria-expanded="true">
-                                    <p class="accordion__desc">Описание услуги - это форма маркетинговой копии, которая
-                                        описывает предложения компании для клиентов. Например, интернет-магазин
-                                        предоставляет на своем сайте описание товаров, которые он продает</p>
-                                </div>
-                            </li>
-                            <li class="list-reset accordion__item">
-                                <button class="accordion__control" aria-expanded="false">
-                                    <span class="accordion__name">Кузовные работы </span>
-                                    <span class="accordion__icon">
-                                        <svg class="icon">
-                                            <use xlink:href="./img/icon/sprite.svg#plus"></use>
-                                        </svg>
-                                    </span>
-                                </button>
-                                <div class="accordion__content" aria-expanded="true">
-                                    <p class="accordion__desc">Описание услуги - это форма маркетинговой копии, которая
-                                        описывает предложения компании для клиентов. Например, интернет-магазин
-                                        предоставляет на своем сайте описание товаров, которые он продает</p>
-                                </div>
-                            </li>
-
-
-                        </ul>
-                    </div>
-
-
-                </div>
+          <div class="services__inner">
+            <div class="services__card">
+              <img
+                class="services__img"
+                width="360"
+                height="460"
+                src="/img/services/img_cars.png"
+                loading="lazy"
+                alt="the lift"
+              />
             </div>
-        </section>
-        <section id="contact" class="contact">
-            <div class="container">
-                <div class="contact__content">
-                    <h2 class="contact__title">Свяжитесь с нами</h2>
-                    <div class="contact__wrapp">
-                        <a class="header__phone phone" href="tel:+44987654321">
-                            <svg class="icon">
-                                <use xlink:href="./img/icon/sprite.svg#tel"></use>
-                            </svg>
-                            +44 987 65 4321
-                        </a>
-                        <a class="contact__mail mail" href="mailto:info@lownslow.com">
-                            <svg class="icon">
-                                <use xlink:href="./img/icon/sprite.svg#mail"></use>
-                            </svg>
-                            info@lownslow.com</a>
-                    </div>
-                </div>
+
+            <div class="accordion">
+              <ul class="list-reset accordion__list">
+                <li class="list-reset accordion__item">
+                  <button class="accordion__control" aria-expanded="false">
+                    <span class="accordion__name">Кузовные работы </span>
+                    <span class="accordion__icon">
+                      <svg class="icon">
+                        <use xlink:href="./img/icon/sprite.svg#plus"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-expanded="true">
+                    <p class="accordion__desc">
+                      Описание услуги - это форма маркетинговой копии, которая
+                      описывает предложения компании для клиентов. Например,
+                      интернет-магазин предоставляет на своем сайте описание
+                      товаров, которые он продает
+                    </p>
+                  </div>
+                </li>
+                <li class="list-reset accordion__item">
+                  <button class="accordion__control" aria-expanded="false">
+                    <span class="accordion__name">Кузовные работы </span>
+                    <span class="accordion__icon">
+                      <svg class="icon">
+                        <use xlink:href="./img/icon/sprite.svg#plus"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-expanded="true">
+                    <p class="accordion__desc">
+                      Описание услуги - это форма маркетинговой копии, которая
+                      описывает предложения компании для клиентов. Например,
+                      интернет-магазин предоставляет на своем сайте описание
+                      товаров, которые он продает
+                    </p>
+                  </div>
+                </li>
+                <li class="list-reset accordion__item">
+                  <button class="accordion__control" aria-expanded="false">
+                    <span class="accordion__name">Кузовные работы </span>
+                    <span class="accordion__icon">
+                      <svg class="icon">
+                        <use xlink:href="./img/icon/sprite.svg#plus"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-expanded="true">
+                    <p class="accordion__desc">
+                      Описание услуги - это форма маркетинговой копии, которая
+                      описывает предложения компании для клиентов. Например,
+                      интернет-магазин предоставляет на своем сайте описание
+                      товаров, которые он продает
+                    </p>
+                  </div>
+                </li>
+                <li class="list-reset accordion__item">
+                  <button class="accordion__control" aria-expanded="false">
+                    <span class="accordion__name">Кузовные работы </span>
+                    <span class="accordion__icon">
+                      <svg class="icon">
+                        <use xlink:href="./img/icon/sprite.svg#plus"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-expanded="true">
+                    <p class="accordion__desc">
+                      Описание услуги - это форма маркетинговой копии, которая
+                      описывает предложения компании для клиентов. Например,
+                      интернет-магазин предоставляет на своем сайте описание
+                      товаров, которые он продает
+                    </p>
+                  </div>
+                </li>
+                <li class="list-reset accordion__item">
+                  <button class="accordion__control" aria-expanded="false">
+                    <span class="accordion__name">Кузовные работы </span>
+                    <span class="accordion__icon">
+                      <svg class="icon">
+                        <use xlink:href="./img/icon/sprite.svg#plus"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-expanded="true">
+                    <p class="accordion__desc">
+                      Описание услуги - это форма маркетинговой копии, которая
+                      описывает предложения компании для клиентов. Например,
+                      интернет-магазин предоставляет на своем сайте описание
+                      товаров, которые он продает
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact__content">
+            <h2 class="contact__title">Свяжитесь с нами</h2>
+            <div class="contact__wrapp">
+              <a class="header__phone phone" href="tel:+44987654321">
+                <svg class="icon">
+                  <use xlink:href="./img/icon/sprite.svg#tel"></use>
+                </svg>
+                +44 987 65 4321
+              </a>
+              <a class="contact__mail mail" href="mailto:info@lownslow.com">
+                <svg class="icon">
+                  <use xlink:href="./img/icon/sprite.svg#mail"></use>
+                </svg>
+                info@lownslow.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer id="footer" class="footer">
-        <div class="container footer__container">
-            <a>
-                <img class="footer__logo" src="/img/logo-red.svg" loading="lazy" alt="logo footer">
-            </a>
+      <div class="container footer__container">
+        <a>
+          <img
+            class="footer__logo"
+            src="/img/logo-red.svg"
+            loading="lazy"
+            alt="logo footer"
+          />
+        </a>
 
-            <span class="footer__copyright">2023 © Все права защищены️</span>
+        <span class="footer__copyright">2023 © Все права защищены️</span>
 
-            <img class="footer__drift" src="/img/footer/drift.svg" alt="icon drift">
-
-        </div>
+        <img
+          class="footer__drift"
+          src="/img/footer/drift.svg"
+          alt="icon drift"
+        />
+      </div>
     </footer>
 
     <script src="/js/accordion-animated.js"></script>
-</body>
-
+  </body>
 </html>
