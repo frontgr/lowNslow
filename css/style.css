@@ -432,6 +432,11 @@ p {
     font-size: 40px;
   }
 
+  .hero__content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .btn {
     font-size: 18px;
   }
@@ -447,5 +452,12 @@ p {
   .footer__container {
     flex-direction: column;
     gap: 15px;
+  }
+}
+
+@media (max-width: 565px) {
+  .hero__content {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
