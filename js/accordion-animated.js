@@ -13,16 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
       //  Если открыт аккордион
       if (self.classList.contains("open")) {
         control.setAttribute("aria-expanded", "true");
-        control.style.marginBottom = "10px";
         control.style.transition = "margin 0.3s ease";
         content.setAttribute("aria-hidden", "false");
+        control.style.borderRadius = "0";
+        content.style.borderRadius = "0";
         desc.style.opacity = 1;
         content.style.transition = "all 1s ease";
         content.style.border = "1px solid #e2e2e2";
+        content.style.borderTop = "0";
         content.style.maxHeight = content.scrollHeight + "px";
       } else {
         control.setAttribute("aria-expanded", "false");
         control.style.marginBottom = "0";
+        control.style.borderRadius = "10";
         desc.style.opacity = 0;
         content.setAttribute("aria-hidden", "true");
         content.style.maxHeight = 0;
